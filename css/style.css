@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+body {
+    font-family: "League Spartan", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gradient1 {
+    background: #0052D4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.gradient2 {
+    background: hsla(280, 84%, 41%, 1);
+    background: linear-gradient(90deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);   
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8711C1", endColorstr="#2472FC", GradientType=1 );
+}
+
+.jtext {
+    margin-top: 50px;
+}
+
+.jtext > h1 {
+    font-weight: bold;
+}
+
+.htop {
+    margin: auto;
+}
+
+.cgam {
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+}
+
+.bar {
+    width: 60%;
+    padding: 10px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.bar > h3 {
+    margin-left: 10px;
+    transform: translateY(15px);
+}
+
+
+.kartu {
+    margin: auto;
+    box-shadow: inset black 1px 0px 5px 1px !important;
+}
+
+.latar {
+    text-align: center;
+    box-shadow: inset black 1px 0px 5px 1px !important;
+}
+
+.latar > img {
+    width: 300px ;
+}
+
+.hlayan {
+    margin-top: 10px;
+    box-shadow: inset black 1px 0px 5px 1px !important;
+}
+
+.hcon:hover {
+    box-shadow: inset black 1px 0px 5px 1px !important;
+    cursor: pointer;
+    transform: translateX(10px) !important;
+}
+
+.tombol:hover {
+    background-color: #0a2755;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1080px) {
+    .bar {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .bar {
+        width: 100%;
+    }
+    .bar > h3 {
+        transform: translateY(5px);
+    }
+
+    .bar .beda {
+        transform: translateY(10px) !important;
+    }
+    .bar .beda1 {
+        transform: translateY(15px) !important;
+    }
+}
