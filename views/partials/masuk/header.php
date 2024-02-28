@@ -10,6 +10,10 @@
 Dengan bergabung bersama kami, Anda dapat menjadi penyedia jasa social media atau reseller social media seperti jasa penambah Followers, Likes, dll.
 Saat ini tersedia berbagai layanan untuk social media terpopuler seperti Instagram, Facebook, Twitter, Youtube, dll.">
     <meta name="author" content="Muhamad Ariel Septiadi">
+    <meta property="og:title" content="Halaman Masuk Official Rajahemat" />
+    <meta property="og:description" content="OFFICIAL RAJAHEMAT - Penyedia Layanan Boosting Social Media Termurah & Terpercaya Se-Indonesia" />
+    <meta property="og:image" content="img/rhnew.png" />
+    <link rel="canonical" href="https://rajahemat.ariel.web.id/"/>
     <link rel="icon" type="image/x-icon" href="img/rhnew.png">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
