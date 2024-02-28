@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://rajahemat.ariel.web.id//sitemap.xml
