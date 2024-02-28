@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/polapiki/rajahemat.ariel.web.id/
+    - /bin/cp index.php $DEPLOYPATH
+   	- /bin/cp -R img $DEPLOYPATH
+   	- /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R views $DEPLOYPATH
